@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  # get 'longestword/game'
+  # get 'longestword/score'
+
+  get 'game' => 'longestword#game'
+  get 'score' => 'longestword#score'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
